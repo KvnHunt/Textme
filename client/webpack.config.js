@@ -19,17 +19,17 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      // Webpack plugin that generates our html file and injects our bundles
+      // Webpack plugin that generates our html file
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'JATE'
       }),
-      // Injects our custom servie worker
+   
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
-      // Creates a manifest.json file.
+    
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
@@ -52,7 +52,7 @@ module.exports = () => {
     ],
 
     module: {
-      // CSS Loaders
+ 
       rules: [
         {
           test: /\.css$/i,

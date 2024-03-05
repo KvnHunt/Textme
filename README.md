@@ -6,11 +6,11 @@
 
 ## Description
 
-The application is a web text editor where the user can create notes or code snippets with or without an internet connection and where the user can reliably retrieve them for later use.  The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection.  This application allows the user to access visited pages even if the application is offline.
+The application is a web text editor where the user can create notes or code snippets with or without an internet connection and where the user can reliably retrieve them for later use.  The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection.  
 
-The URL of the GitHub repository is $$$$$ and the repository name is 19-PWA-Text-Editor.
+The URL of the GitHub repository is $$$$$ and the repository name is Textme.
 
-🚀The application has been deployed to Heroku and the URL of the deployed application is:-
+
  
 
 
@@ -99,7 +99,7 @@ THEN I find that the content in the text editor has been retrieved from our Inde
 WHEN I click on the Install button
 THEN I download my web application as an icon on my desktop
 ``````
-*Below is the screenshot of icon on the desktop"*
+*screenshot of icon on the desktop"*
 
 ![alt text]
 
@@ -131,4 +131,3 @@ THEN I should have proper build scripts for a webpack application
 *   Module 19 Mini-Project: Deploy Contact Directory App on Heroku with Script
 *   Request-Response : The Full-Stack Blog : Heroku Deployment Guide
  
-## License
