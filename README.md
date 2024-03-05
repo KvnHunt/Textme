@@ -1,6 +1,6 @@
 # Textme
 
-## 19 Progressive Web Applications (PWA) : Text Editor
+## 19 Challenge
 
 
 
@@ -40,7 +40,6 @@ The URL of the GitHub repository is $$$$$ and the repository name is 19-PWA-Text
          * npm install concurrently --save (run multiple commands concurrently.) (Concurrently)
          * npm npm install idb (IndexedDB)
 
-* The required modules are bundled in the package.json file and at CLI or integrated terminal type in **npm run install**, the modules will be installed.       
 
 ## Usage
 
@@ -50,7 +49,7 @@ GIVEN a text editor web application,
 WHEN I open my application in my editor
 THEN I should see a client server folder structure
 ``````
-*Below is the screenshot of the client server folder structure.  The folder structure have been set up or given in this structure.*
+
 
 ![alt text]
 
